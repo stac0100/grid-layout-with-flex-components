@@ -47,3 +47,8 @@ body {
 .icon {
     order: -1;
 }
+
+a {
+    margin-top: auto;
+}
+
