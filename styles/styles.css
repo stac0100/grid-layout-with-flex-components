@@ -46,6 +46,7 @@ body {
 /* positioning the emoji at the top of the card */
 .icon {
     order: -1;
+    align-self: center;
 }
 
 a {
