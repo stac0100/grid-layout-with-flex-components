@@ -30,6 +30,20 @@ body {
     font-size: 4rem;
   }
 
-/**************************************************************
-                    
-***************************************************************/
+/* setting up the grid */
+.emojis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* using flexbox to layout content */
+.emoji {
+    display: flex;
+    flex-direction: column;
+}
+
+/* positioning the emoji at the top of the card */
+.icon {
+    order: -1;
+}
